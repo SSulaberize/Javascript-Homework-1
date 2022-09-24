@@ -8,6 +8,7 @@ let user = {
 console.log(user.studentstatus);
 
 
+
 // სავარჯიშო 2
 let items = ['house', 'car', 15, 'melon', 'apple', 2, 'tree'];
 
@@ -22,13 +23,15 @@ while (a<items.length){
 }
 
 
+
 // სავარჯიშო 3
 let numbers = [5, 6, 10, 25, 3, 7, 4, 100, 28, 36, 89];
-for (let a of numbers){
-    if (numbers [a] > 5){
+for (let a=0; a<numbers.length; a++){
+    if (numbers[a]>5){
         console.log(numbers[a]);
     }
 }
+
 
 
 // სავარჯიშო 4
@@ -52,6 +55,8 @@ else {
 }
 
 
+
+
 // სავარჯიშო 5
 let array = ['watermelon', 'pear', 10, 45, 50, 'apple', 'ananas'];
 for(let a of array){
@@ -59,7 +64,6 @@ for(let a of array){
         console.log(a);
     }
 }
-
 
 
 
@@ -73,12 +77,12 @@ for (let a of array[0]){
 }
 for (let a1 of array [1]){
     if ( a1 > 0){
-        console.log(a1)
+        console.log(a1);
     }
 }
 for (let a2 of array [2]){
     if (a2 > 0){
-        console.log(a2)
+        console.log(a2);
     }
 }
 
@@ -100,6 +104,7 @@ for (let a of array){
 }
 
 
+
 // სავარჯიშო 8
 let users = [
     {username: 'giorgi', status: false},
@@ -108,6 +113,6 @@ let users = [
 ];
 for (a = 0; a < users.length; a++){
     if (users[a].status == true){
-        console.log(users[a])
+        console.log(users[a]);
     }
 }
