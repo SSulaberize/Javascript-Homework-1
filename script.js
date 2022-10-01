@@ -68,21 +68,11 @@ for(let a of array){
 
 
 //სავარჯიშო 6
-let array = [[2, -3, 5, 10], [25, -24, -11, 100], [-6, -7, 10]];
-
-for (let a of array[0]){
-    if (a > 0){
-        console.log(a);
-    }
-}
-for (let a1 of array [1]){
-    if ( a1 > 0){
-        console.log(a1);
-    }
-}
-for (let a2 of array [2]){
-    if (a2 > 0){
-        console.log(a2);
+let array = [ [2, -3, 5, 10], [25, -24, -11, 100] , [-6, -7, 10] ];
+for (let a of array){
+    for (let positive of a){
+        if (positive>0)
+        console.log(positive);
     }
 }
 
